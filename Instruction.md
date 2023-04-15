@@ -102,5 +102,25 @@ newgrp docker
 ## 10. Create Secrets 
 
 - Go to Settings and click Secrets and variables
+
 - Select Actions and click New repository secret
+
 - Name: AWS_ACCESS_KEY_ID
+
+  ​			AWS_SECRET_ACCESS_KEY
+
+  ​			AWS_REGION
+
+  ​			AWS_ECR_LOGIN_URI(without/studentindicator)
+
+  ​			ECR_REPOSITORY_NAME = studentidicator
+
+- Change the name in main yaml: --name=studentindicator
+
+
+
+## 11. Security Group
+
+- go to instance and click Security
+- Select Security groups and click Edit inbound rules
+- add 8080
